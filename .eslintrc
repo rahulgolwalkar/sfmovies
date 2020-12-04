@@ -2,5 +2,12 @@
   extends: "lob",
   globals: {
     expect: false
+  },
+  parserOptions: {
+    "ecmaVersion": 2018,
+    "env": {
+      "es2020": true,
+      "node": true
+    }
   }
 }
